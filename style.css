@@ -1,0 +1,117 @@
+/* Navbar Styling */
+.custom-navbar .nav-link, 
+.custom-navbar .navbar-brand, 
+.custom-navbar .btn {
+    color: white !important;
+}
+
+.custom-navbar {
+    background: linear-gradient(90deg, #1a1a1a, #343a40) !important;
+    padding: 1rem;
+}
+
+/* Sidebar */
+.sidebar-card {
+    border: none;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+}
+
+/* Card Styling */
+.music-card {
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    width: 24rem;
+}
+
+.music-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 18rem;
+}
+
+/* Form */
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+/* Hidden Sections */
+.hidden {
+    display: none;
+}
+
+/* Button Styling */
+.custom-navbar .btn-outline-success {
+    color: black !important;
+    border-color: black !important;
+    background-color: white !important;
+}
+
+.custom-navbar .btn-outline-success:hover {
+    color: white !important;
+    background-color: black !important;
+}
+.d-flex
+{
+    background-color: #242628;
+}
+
+.custom-navbar .btn-outline-danger{
+    background-color: white !important;
+    color: #DC3545 !important;
+}
+
+.custom-navbar .btn-outline-danger:hover{
+    background-color:#DC3545  !important;
+    color: white !important;
+}
+
+.sort-options
+{
+    background-color: white;
+    margin-left: auto;
+}
+
+.music-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .music-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .music-card .card-body {
+    background-color: #f8f9fa;
+  }
+  .music-card h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+  }
+  .music-card p {
+    color: #777;
+    margin-bottom: 8px;
+  }
+  .music-card .details {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  .music-card .views {
+    font-weight: bold;
+    color: #333;
+  }
